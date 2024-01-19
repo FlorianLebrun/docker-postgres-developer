@@ -12,5 +12,7 @@ Run `docker build --tag postgres-windows .`
 
 ## Test
 
+Use database login: user="dev" password=""
+
 Run `docker run -p 5432:5432/tcp postgres-windows:latest`
 
